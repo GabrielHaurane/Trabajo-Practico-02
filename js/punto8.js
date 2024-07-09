@@ -10,23 +10,15 @@
 ……
 
 */
-/*
-let numero = parseInt(prompt("Ingrese un número para generar la pirámide inversa (no mayor de 50):"));
 
-if ( numero < 1 || numero > 50) {
-    alert("Por favor, ingrese un número válido entre 1 y 50.");
-    
+const cantidadNumpiramide = parseInt(prompt('ingrese el numero para su pirámide(no mas de 50): '))
+
+if(cantidadNumpiramide <= 50){
+    for (let i = 0; i < cantidadNumpiramide; i++) {
+        for (let j = 0; j < i; j++) {
+            document.write(`<span>${(j + 1)}</span>`)
+        }
+        document.write('<br>')
+    }
 }
-let piramide = "";
-
-for (let i = 1; numero <= 50; i++) {
-  let linea = "";
-  for (let j = 0; j <= i; j++) {
-    linea += i;
-  }
-  piramide += linea + "<br>";
-}
-
-document.write(piramide);
-*/
 

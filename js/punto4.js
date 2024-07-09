@@ -2,10 +2,15 @@
 4- Realiza un script que pida números hasta que se pulse “cancelar”. Si no es un número deberá indicarse con un «alert» y seguir pidiendo números.
 Al salir con “cancelar” deberá indicarse la suma total de los números introducidos.
 */
-let num = parseInt(prompt(`Escriba numeros`));
 
-while (num >= 0 || num < 0) {
-    num = parseInt(prompt(`Escriba numeros`))
-}
-alert(num+num);
+
+do {
+
+    let num = parseInt(prompt(`Escriba un numero entero`));
+    if (num === parseInt) {
+        
+    } else {
+        
+    }
+} while (condition);
 

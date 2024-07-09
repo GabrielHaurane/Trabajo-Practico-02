@@ -21,107 +21,81 @@ Output: ‘L’
 
 // Primera opcion
 
-/*
- let dni = parseInt(prompt(`indique su DNI sin puntos`, `45232411`));
- let division = parseInt(dni % 23);
- 
-   if (dni >= 0 && dni <= 99999999) {
-     switch (division) {
-       case 0:
-         document.write(`T`);
-         break;
-       case 1:
-         document.write(`R`);
-         break;
-       case 2:
-         document.write(`W`);
-         break;
-       case 3:
-         document.write(`A`);
-         break;
-       case 4:
-         document.write(`G`);
-         break;
-       case 5:
-         document.write(`M`);
-         break;
-       case 6:
-         document.write(`Y`);
-         break;
-       case 7:
-         document.write(`F`);
-         break;
-       case 8:
-         document.write(`P`);
-         break;
-       case 9:
-         document.write(`D`);
-         break;
-       case 10:
-         document.write(`X`);
-         break;
-       case 11:
-         document.write(`B`);
-         break;
-       case 12:
-         document.write(`N`);
-         break;
-       case 13:
-         document.write(`J`);
-         break;
-       case 14:
-         document.write(`Z`);
-         break;
-       case 15:
-         document.write(`S`);
-         break;
-       case 16:
-         document.write(`Q`);
-         break;
-       case 17:
-         document.write(`V`);
-         break;
-       case 18:
-         document.write(`H`);
-         break;
-       case 19:
-         document.write(`L`);
-         break;
-       case 20:
-         document.write(`C`);
-         break;
-       case 21:
-         document.write(`K`);
-         break;
-       case 22:
-         document.write(`E`);
-         break;
-     }
-   } else {
-     document(`usted no indico un numero`);
-   }
-*/
+do {
+  let dni = parseInt(prompt(`indique su DNI sin puntos`, `45232411`));
+  let division = parseInt(dni % 23);
 
-// Segunda opcion
-
-/*
-   const letras = "TRWAGMYFPDXBNJZSQVHLCKE";
-   let dni;
-   const resto = dni % 23;
-   while (true) {
-       dni = prompt("Introduce el número del DNI (0-99999999) o pulsa cancelar para salir:");
-
-       if (dni === null) {
-           break;  El usuario ha pulsado cancelar
-       }
-
-       numeroDNI = parseInt(dni);
-      
-       if (dni < 0 || numeroDNI > 99999999) {
-           alert("El número debe estar entre 0 y 99999999. Por favor, inténtalo de nuevo.");
-       } else {
-           const letraDNI = letras.charAt(resto);
-           alert(`La letra correspondiente a tu DNI es: ${letraDNI}`);
-       }
-   }
-  */
+  if (dni >= 0 && dni <= 99999999) {
+    switch (division) {
+      case 0:
+        alert(`T`);
+        break;
+      case 1:
+        alert(`R`);
+        break;
+      case 2:
+        alert(`W`);
+        break;
+      case 3:
+        alert(`A`);
+        break;
+      case 4:
+        alert(`G`);
+        break;
+      case 5:
+        alert(`M`);
+        break;
+      case 6:
+        alert(`Y`);
+        break;
+      case 7:
+        alert(`F`);
+        break;
+      case 8:
+        alert(`P`);
+        break;
+      case 9:
+        alert(`D`);
+        break;
+      case 10:
+        alert(`X`);
+        break;
+      case 11:
+        alert(`B`);
+        break;
+      case 12:
+        alert(`N`);
+        break;
+      case 13:
+        alert(`J`);
+        break;
+      case 14:
+        alert(`Z`);
+        break;
+      case 15:
+        alert(`S`);
+        break;
+      case 16:
+        alert(`Q`);
+        break;
+      case 17:
+        alert(`V`);
+        break;
+      case 18:
+        alert(`H`);
+        break;
+      case 19:
+        alert(`L`);
+        break;
+      case 20:
+        alert(`C`);
+        break;
+      case 21:
+        alert(`K`);
+        break;
+      case 22:
+        alert(`E`);
+        break;
+    }
+  }
+} while (confirm(`usted no indico un numero`));

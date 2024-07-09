@@ -11,7 +11,7 @@
 1
 
 */
-/*
+
 let numero = parseInt(prompt("Ingrese un número para generar la pirámide inversa (no mayor de 50):"));
 
 if ( numero < 1 || numero > 50) {
@@ -29,4 +29,4 @@ for (let i = numero; i >= 1; i--) {
 }
 
 document.write(piramideInv);
-*/
+
