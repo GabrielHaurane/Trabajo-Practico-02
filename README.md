@@ -1,9 +1,9 @@
 <h1>Trabajo practico 02 de JavaScrip</h1>
 Son los 17 puntos del TP 02
 <h2>Lenguaje utilizado</h2>
-- html
-- css
-- js
+ - html
+ - css
+ - js
 <h2>Aplicacion para ver el Trabajo</h2>
 - visual studio code
 <h3>puedes verlo:</h3>
@@ -12,4 +12,4 @@ instalando:
 o clonarlo al repositorio
 `$ git clone url`
 <h3>Autor</h3>
-- Haurane Gabriel Aleajandro
+ - Haurane Gabriel Aleajandro
