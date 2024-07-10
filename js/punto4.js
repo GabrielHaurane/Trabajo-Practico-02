@@ -4,13 +4,22 @@ Al salir con “cancelar” deberá indicarse la suma total de los números intr
 */
 
 
-do {
+let sumaTotal = 0;
 
-    let num = parseInt(prompt(`Escriba un numero entero`));
-    if (num === parseInt) {
-        
-    } else {
-        
+while (true) {
+    let input = prompt("Introduce un número (o presiona 'Cancelar' para terminar):");
+
+    if (input === null) {  // Si se pulsa "Cancelar"
+        break;
     }
-} while (condition);
 
+    let numero = parseInt(input);
+
+    if (isNaN(numero)) {
+        alert("Eso no es un número válido. Inténtalo de nuevo.");
+    } else {
+        sumaTotal += numero;
+    }
+}
+
+alert("La suma total de los números introducidos es: " + sumaTotal);
