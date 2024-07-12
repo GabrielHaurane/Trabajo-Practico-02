@@ -12,4 +12,4 @@ instalando:
 o clonarlo al repositorio
 `$ git clone url`
 <h3>Autor</h3>
- - Haurane Gabriel Aleajandro
+ - Haurane Gabriel Alejandro
